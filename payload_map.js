@@ -34,7 +34,7 @@ const payload_map = [
         displayTitle: "ETAHEN 2.6B",
         description: "FOR 1.XX TO 10.01",
         fileName: "etaHEN-2.6B.bin",
-        author: "Date UPDATE 13-04-2026",
+        author: "Date UPDATE 25-12-2025",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
         version: "2.6B",
@@ -88,7 +88,7 @@ const payload_map = [
     
     {
         displayTitle: "App_title By Master",
-        description: "Thank You Master",
+        description: "Tank You Master",
         fileName: "app_title.elf",
         author: "Creat By Master",
         projectSource: "https://github.com/MasterPS0/PS5-appls-tital/releases",
@@ -104,10 +104,9 @@ const payload_map = [
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/ftpsrv",
         binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/14012252230",
-        version: "0.19",
+        version: "0.11.3",
         toPort: 9021
     },
-	
     {
         displayTitle: "websrv",
         description: "Custom homebrew loader. Runs on port 8080.",
@@ -138,6 +137,17 @@ const payload_map = [
         projectSource: "https://github.com/illusion0001/libhijacker",
         binarySource: "https://github.com/illusion0001/libhijacker-game-patch/releases/tag/1.160-75ab26a3",
         version: "1.160",
+        supportedFirmwares: ["3.", "4."]
+    },
+
+     {
+        displayTitle: "kstuff-toggle",
+        description: "PS4/PS5 Games Kstuff Start/Stop",
+        fileName: "kstuff-toggle.elf",
+        author: "echostrech",
+        projectSource: "https://github.com/EchoStretch/kstuff-toggle",
+        binarySource: "https://github.com/EchoStretch/kstuff-toggle",
+        version: "0.5 beta",
         supportedFirmwares: ["3.", "4."]
     },
 
