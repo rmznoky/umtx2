@@ -1,5 +1,5 @@
 CACHE MANIFEST 
-#VERSION 1.0 
+#VERSION 1.1 
 
 CACHE: 
 custom_host_stuff.js
@@ -43,6 +43,7 @@ offsets\5.10.js
 offsets\5.50.js
 payloads\elfldr.elf
 payloads\etaHEN-2.6B.bin
+payloads\kstuff.elf
 payloads\ftpsrv.elf
 payloads\garlic-savemgr.elf
 payloads\libhijacker-game-patch.v1.160.elf
