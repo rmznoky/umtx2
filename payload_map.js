@@ -142,7 +142,7 @@ const payload_map = [
 
      {
         displayTitle: "kstuff-toggle",
-        description: "PS4/PS5 Games Kstuff Start/Stop",
+        description: "Kstuff Start/Stop",
         fileName: "kstuff-toggle.elf",
         author: "EchoStretch",
         projectSource: "https://github.com/EchoStretch/kstuff-toggle",
