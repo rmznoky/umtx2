@@ -53,6 +53,7 @@ payloads\shadowmountplus.elf
 payloads\voidshell.elf
 payloads\websrv.elf
 payloads\app_title.elf
+payloads\kstuff-toggle.elf
 psfree\alert.js
 psfree\config.js
 psfree\COPYING
