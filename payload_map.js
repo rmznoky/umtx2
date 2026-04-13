@@ -88,7 +88,7 @@ const payload_map = [
     
     {
         displayTitle: "App_title By Master",
-        description: "Tank You Master",
+        description: "Thank You Master",
         fileName: "app_title.elf",
         author: "Creat By Master",
         projectSource: "https://github.com/MasterPS0/PS5-appls-tital/releases",
@@ -104,9 +104,10 @@ const payload_map = [
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/ftpsrv",
         binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/14012252230",
-        version: "0.11.3",
+        version: "0.19",
         toPort: 9021
     },
+	
     {
         displayTitle: "websrv",
         description: "Custom homebrew loader. Runs on port 8080.",
