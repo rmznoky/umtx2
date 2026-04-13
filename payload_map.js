@@ -144,11 +144,12 @@ const payload_map = [
         displayTitle: "kstuff-toggle",
         description: "PS4/PS5 Games Kstuff Start/Stop",
         fileName: "kstuff-toggle.elf",
-        author: "echostrech",
+        author: "EchoStretch",
         projectSource: "https://github.com/EchoStretch/kstuff-toggle",
         binarySource: "https://github.com/EchoStretch/kstuff-toggle",
         version: "0.5 beta",
-        supportedFirmwares: ["3.", "4."]
+        supportedFirmwares: ["3.", "4.", "5.", "6.", "7.", "8."],
+        toPort: 9021
     },
 
        {
