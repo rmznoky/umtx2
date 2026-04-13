@@ -34,7 +34,7 @@ const payload_map = [
         displayTitle: "ETAHEN 2.6B",
         description: "FOR 1.XX TO 10.01",
         fileName: "etaHEN-2.6B.bin",
-        author: "Date UPDATE 25-12-2025",
+        author: "Date UPDATE 13-04-2026",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
         version: "2.6B",
