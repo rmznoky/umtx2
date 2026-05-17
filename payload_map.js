@@ -53,13 +53,13 @@ const payload_map = [
     },
 	
         {
-        displayTitle: "VoidShell",
-        description: "VoidShell V3.0 - Beta",
-        fileName: "voidshell.elf",
-        author: "voidwhisper",
+        displayTitle: "PS5 LINUX",
+        description: "Ps5 Linux Loader v2.0",
+        fileName: "ps5-linux-loader.elf",
+        author: "TheFlow",
         projectSource: "",
         binarySource: "",
-        version: "V3.0",
+        version: "V2.0",
         toPort: 9021
     },
     {
