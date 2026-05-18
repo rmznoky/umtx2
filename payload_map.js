@@ -42,12 +42,12 @@ const payload_map = [
     },
     {
         displayTitle: "ps5-kstuff-lite",
-        description: "Kstuff Lite 1.02",
+        description: "Kstuff Lite 1.00",
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao, idlesauce",
         projectSource: "https://github.com/EchoStretch/kstuff-lite",
         binarySource: "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.03/",
-        version: "1.02",
+        version: "1.00",
         supportedFirmwares: ["3.", "4.", "5.", "6.", "7.", "8."],
         toPort: 9021
     },
