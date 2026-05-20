@@ -1,5 +1,5 @@
 CACHE MANIFEST 
-#VERSION 1.0
+#VERSION 1.1
 
 CACHE: 
 custom_host_stuff.js
@@ -55,6 +55,7 @@ payloads\ps5-linux-loader.elf
 payloads\websrv.elf
 payloads\app_title.elf
 payloads\kstuff-toggle.elf
+payloads\kstuff-lite-1.1-dr.elf
 psfree\alert.js
 psfree\config.js
 psfree\COPYING
