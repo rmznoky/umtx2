@@ -161,7 +161,7 @@ const payload_map = [
         binarySource: "https://github.com/vladimir-cucu/ps5-webkit-cache-remover",
         version: "V1.01",
         toPort: 9021
-    }
+    },
  {
         displayTitle: "Kstuff Lite 1.1-dr",
         description: "Kstuff Lite 1.1-dr (stable)",
