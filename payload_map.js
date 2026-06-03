@@ -42,7 +42,7 @@ const payload_map = [
     },
     {
         displayTitle: "ps5-kstuff-lite",
-        description: "Kstuff Lite 1.03",
+        description: "Kstuff Lite 1.07",
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao, idlesauce",
         projectSource: "https://github.com/EchoStretch/kstuff-lite",
@@ -54,7 +54,7 @@ const payload_map = [
 	
         {
         displayTitle: "PS5 LINUX",
-        description: "Ps5 Linux Loader v2.0",
+        description: "Ps5 Linux Loader v2.1",
         fileName: "ps5-linux-loader.elf",
         author: "TheFlow",
         projectSource: "",
