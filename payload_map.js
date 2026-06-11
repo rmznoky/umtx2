@@ -42,7 +42,7 @@ const payload_map = [
     },
     {
         displayTitle: "ps5-kstuff-lite",
-        description: "Kstuff Lite 1.07",
+        description: "Kstuff Lite 1.07 work trophy",
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao, idlesauce",
         projectSource: "https://github.com/EchoStretch/kstuff-lite",
@@ -64,7 +64,7 @@ const payload_map = [
     },
     {
         displayTitle: "Backpork",
-        description: "By BestPig V1.0",
+        description: "By BestPig V0.1",
         fileName: "ps5-backpork.elf",
         author: "Seported 4.XX To 7.XX",
         projectSource: "https://github.com/BestPig/BackPork",
@@ -75,7 +75,7 @@ const payload_map = [
     },
 	{
         displayTitle: "ShadowMountPlus",
-        description: "ShadowMountPlus 1.6test8-fix1 12.00 fixed",
+        description: "ShadowMountPlus 1.6test15-fix2",
         fileName: "shadowmountplus.elf",
         author: "drakmor",
         projectSource: "https://github.com/drakmor/ShadowMountPlus",
@@ -114,7 +114,7 @@ const payload_map = [
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/websrv",
         binarySource: "https://github.com/ps5-payload-dev/websrv/actions/runs/14318408868",
-        version: "0.30.1",
+        version: "0.32",
         toPort: 9021
     },
     
