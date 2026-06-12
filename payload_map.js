@@ -87,13 +87,13 @@ const payload_map = [
 
     
     {
-        displayTitle: "App_title By Master",
-        description: "Tank You Master",
-        fileName: "app_title.elf",
-        author: "Creat By Master",
-        projectSource: "https://github.com/MasterPS0/PS5-appls-tital/releases",
-        binarySource: "https://github.com/MasterPS0/PS5-appls-tital/releases",
-        version: "V1.0",
+        displayTitle: "Payload Manager",
+        description: "pldmgr_v0.3.1",
+        fileName: "pldmgr.elf",
+        author: "Created By itsPLK",
+        projectSource: "https://github.com/itsPLK/ps5-payload-manager",
+        binarySource: "https://github.com/itsPLK/ps5-payload-manager",
+        version: "v0.3.1",
         toPort: 9021
     },
 
