@@ -152,16 +152,7 @@ const payload_map = [
         toPort: 9021
     },
 
-       {
-        displayTitle: "Remover V1.01 Cache Webkit",
-        description: "By Vladimir.",
-        fileName: "remover.elf",
-        author: "By Vladimir",
-        projectSource: "https://github.com/vladimir-cucu/ps5-webkit-cache-remover",
-        binarySource: "https://github.com/vladimir-cucu/ps5-webkit-cache-remover",
-        version: "V1.01",
-        toPort: 9021
-    },
+    
  {
         displayTitle: "Kstuff Lite 1.1-dr",
         description: "Kstuff Lite 1.1-dr (stable)",
@@ -171,9 +162,8 @@ const payload_map = [
         binarySource: "https://github.com/drakmor/kstuff-lite/releases/tag/1.1-dr",
         version: "V1.01",
         toPort: 9021
-    }
-],
-	    {
+    },
+	{
         // https://github.com/Storm21CH/PS5_Browser_appCache_remove
         displayTitle: "REMOVE CACHE AND CLEAN BROWSER",
         description: "CLEAN CACHE 1.XX TO 5.XX",
@@ -184,6 +174,7 @@ const payload_map = [
         version: "1.0",
         customAction: CUSTOM_ACTION_APPCACHE_REMOVE
     }
+
 
 ];
 
