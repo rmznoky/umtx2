@@ -172,6 +172,19 @@ const payload_map = [
         version: "V1.01",
         toPort: 9021
     }
+],
+	    {
+        // https://github.com/Storm21CH/PS5_Browser_appCache_remove
+        displayTitle: "REMOVE CACHE AND CLEAN BROWSER",
+        description: "CLEAN CACHE 1.XX TO 5.XX",
+        fileName: "",
+        author: "Storm21CH, idlesauce",
+        projectSource: "",
+        binarySource: "",
+        version: "1.0",
+        customAction: CUSTOM_ACTION_APPCACHE_REMOVE
+    }
+
 ];
 
 
