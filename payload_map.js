@@ -42,7 +42,7 @@ const payload_map = [
     },
     {
         displayTitle: "ps5-kstuff-lite",
-        description: "Kstuff Lite 1.07 work trophy",
+        description: "Kstuff Lite 1.08 update time 29.06.2026",
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao, idlesauce",
         projectSource: "https://github.com/EchoStretch/kstuff-lite",
@@ -75,7 +75,7 @@ const payload_map = [
     },
 	{
         displayTitle: "ShadowMountPlus",
-        description: "ShadowMountPlus 1.6test15-fix2",
+        description: "ShadowMountPlus 1.6beta16 update time 29.06.2026",
         fileName: "shadowmountplus.elf",
         author: "drakmor",
         projectSource: "https://github.com/drakmor/ShadowMountPlus",
