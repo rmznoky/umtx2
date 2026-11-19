@@ -629,6 +629,7 @@ async function main(userlandRW, wkOnly = false) {
         let OFFSET_PROGRAM_HEADER_FLAGS = 0x04;
         let OFFSET_PROGRAM_HEADER_OFFSET = 0x08;
         let OFFSET_PROGRAM_HEADER_VADDR = 0x10;
+        let OFFSET_PROGRAM_HEADER_FILESZ = 0x20;
         let OFFSET_PROGRAM_HEADER_MEMSZ = 0x28;
 
         let OFFSET_RELA_OFFSET = 0x00;
@@ -689,6 +690,7 @@ async function main(userlandRW, wkOnly = false) {
                 let program_vaddr = p.read4(elf_store.add32(program_header_offset + OFFSET_PROGRAM_HEADER_VADDR));
                 let program_memsz = p.read4(elf_store.add32(program_header_offset + OFFSET_PROGRAM_HEADER_MEMSZ));
                 let aligned_memsz = (program_memsz + 0x3FFF) & 0xFFFFC000;
+                let program_filesz = p.read4(elf_store.add32(program_header_offset + OFFSET_PROGRAM_HEADER_FILESZ));
 
                 if (program_type == ELF_PT_LOAD) {
                     // For executable segments, we need to take some care and do alias'd mappings.
@@ -714,9 +716,13 @@ async function main(userlandRW, wkOnly = false) {
 
                         // Copy in segment data
                         let dest = p.read8(conn_ret_store);
-                        for (let j = 0; j < program_memsz; j += 0x8) {
+                        for (let j = 0; j < program_filesz; j += 0x8) {
                             let src_qword = p.read8(elf_store.add32(program_offset + j));
                             p.write8(dest.add32(j), src_qword);
+                        }
+
+                        for (let j = program_filesz; j < aligned_memsz; j++) {
+                            p.write1(dest.add32(j), 0x0);
                         }
 
                         // Map executable segment
@@ -732,9 +738,13 @@ async function main(userlandRW, wkOnly = false) {
 
                         // Copy in segment data
                         let dest = mapping_addr.add32(program_vaddr);
-                        for (let j = 0; j < program_memsz; j += 0x8) {
+                        for (let j = 0; j < program_filesz; j += 0x8) {
                             let src_qword = p.read8(elf_store.add32(program_offset + j));
                             p.write8(dest.add32(j), src_qword);
+                        }
+
+                        for (let j = program_filesz; j < aligned_memsz; j++) {
+                            p.write1(dest.add32(j), 0x0);
                         }
                     }
                 }
@@ -861,7 +871,7 @@ async function main(userlandRW, wkOnly = false) {
             }
         }
 
-        if (await load_local_elf("elfldr.elf") == 0) {
+        if (await load_local_elf("elfldr-ps5.elf") == 0) {
             await log(`elfldr listening on ${ip.ip}:9021`, LogLevel.INFO);
             is_elfldr_running = true;
         } else {
